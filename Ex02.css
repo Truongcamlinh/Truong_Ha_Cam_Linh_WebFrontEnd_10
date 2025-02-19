@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", serif;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    height: 300px;
+}
+.container .box1{
+    width: calc(25% - 10px);
+    display: flex;
+    flex-direction: column;
+}
+.container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    object-fit: cover;
+    display: block;
+    
+}
+.container .box2{
+    width: calc(25% - 10px);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container .title{
+    background-color: #F9FAFC;
+    padding: 30px;
+}
+.container .title span{
+    font-weight:900;
+    background: linear-gradient(180deg, #4E5053 40%, rgb(197, 196, 196));
+    background-clip: text;
+    color: transparent;
+}
